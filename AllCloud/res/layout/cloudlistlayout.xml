@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/id_dropbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90C3D4"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dropbox" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="DropBox" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_googledrive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5BC42"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_googledrive" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Google Drive" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#90C3D4"
+        android:orientation="horizontal"
+        android:padding="10dip" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_box" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Box" >
+        </TextView>
+    </LinearLayout>
+  
+</LinearLayout>
